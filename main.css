@@ -1,0 +1,65 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+  border: 1px solid;
+  background-color: white;
+}
+main {
+  display: grid;
+  grid-template-columns: 240px 348px 342px;
+  column-gap: 35px;
+  margin: 0 auto;
+  width: calc(240px + 348px + 342px);
+  background-color: white;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.number {
+  color: grey;
+  font-style: italic;
+  margin: 0%;
+  position: absolute;
+  top: 38%;
+  left: 60.3%;
+  border: 1px;
+}
+div blockquote {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 130%;
+  margin: 0;
+  float: right;
+}
+footer {
+  color: grey;
+  margin: 0;
+  position: absolute;
+  bottom: 24%;
+  left: 60.5%;
+}
+.name {
+  color: grey;
+  margin: 0;
+  position: absolute;
+  bottom: 35%;
+  left: 60.5%;
+}
+.year {
+  color: grey;
+  margin: 0;
+  position: absolute;
+  bottom: 34%;
+  left: 60.5%;
+  font-size: smaller;
+}
+.logo {
+  font-size: 1cm;
+  font-family: "Times New Roman", Times, serif;
+  border-color: grey;
+  border-width: 1px;
+  border-right-style: dotted;
+}
